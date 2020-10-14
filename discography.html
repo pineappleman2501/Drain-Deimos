@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>DISCOGRAPHY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../css/modern-css-reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="menu-btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <div class="header-menu" id="menu">
+                <ul class="nav">
+                    <li class="logo"><a href="index.html"><img src="../img/logo3w.png" alt=""></a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="discography.html">DISCOGRAPHY</a></li>
+                    <li><a href="biography.html">BIOGRAPHY</a></li>
+                    <li><a href="goods.html">GOODS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x "></i></a></li>
+                    <li><a href="https://ja-jp.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x "></i></a></li>
+                    <li><a href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram fa-2x "></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <main id="dis">
+            <h1 class="dis">DISCOGRAPHY</h1>
+            <div class="album1">
+                <a href="split.html"><img src="../img/split.png" alt="">
+                    <p class="ctgy">SPLIT</p>
+                    <h3>The most camwhore is you!</h3>
+                </a>
+            </div>
+            <div class="album2">
+                <a href="remember.html"><img src="../img/1st.png" alt="">
+                    <p class="ctgy">ALBUM</p>
+                    <h3>Remember</h3>
+                </a>
+            </div>
+            <div class="album3">
+                <a href="awakenfromthedream.html"><img src="../img/cv5.png" alt="">
+                    <p class="ctgy">EP</p>
+                    <h3>Awaken from the dream</h3>
+                </a>
+            </div>
+            <div class="album4">
+                <a href="oblivion.html"><img src="../img/cv4.png" alt="">
+                    <p class="ctgy">EP</p>
+                    <h3>Oblivion</h3>
+                </a>
+            </div>
+            <div class="album5">
+                <a href="onslaught.html"><img src="../img/cv2.png" alt="">
+                    <p class="ctgy">Demo</p>
+                    <h3>Onslaught</h3>
+                </a>
+            </div>
+            <div class="album6">
+                <a href="torment.html"><img src="../img/cv.png" alt="">
+                    <p class="ctgy">Demo</p>
+                    <h3>Torment</h3>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-logo">
+                <a href="../html/index.html">
+                    <img src="../img/logo3w.png" alt="">
+                </a>
+            </div>
+            <div class="footer-icon">
+                <ul>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x "></i></a></li>
+                    <li><a href="https://ja-jp.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x "></i></a></li>
+                    <li><a href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram fa-2x "></i></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <p>Drain Deimos/Crest Records</p>
+                <small>このサイトはフィクションです。非営利目的の個人が作ったサイトであり、実在の人物や団体などとは一切関係ありません。</small>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 100) {
+                $('header').addClass('scroll');
+            } else {
+                $('header').removeClass('scroll');
+            }
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            $('.menu-btn').on('click', function() {
+                $('.header-menu').toggleClass('is-active');
+            });
+        }());
+
+    </script>
+
+
+</body>
+
+</html>
